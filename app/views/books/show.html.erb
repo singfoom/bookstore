@@ -1,0 +1,23 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Title:</strong>
+  <%= @book.title %>
+</p>
+
+<p>
+  <strong>Author Name</strong>
+  <%= @book.author.first_name %>
+</p>
+
+<p>
+  <strong>Description:</strong>
+  <%= @book.description %>
+</p>
+
+<p>
+  <strong>Published on:</strong>
+  <%= @book.published_on %>
+</p>
+
+<%= link_to 'Back', :controller => "home", :action => "index" %>
