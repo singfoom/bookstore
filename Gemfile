@@ -1,6 +1,7 @@
 source 'https://rubygems.org'
 
 gem 'rails', '3.2.13'
+gem 'rails_admin'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
@@ -45,3 +46,6 @@ gem 'zurb-foundation'
 
 # To use debugger
 # gem 'debugger'
+
+
+gem "devise"
