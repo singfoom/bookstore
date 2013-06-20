@@ -22,6 +22,15 @@ end
 
 gem 'jquery-rails'
 
+group :development, :test do
+  gem 'shoulda'
+  gem 'rspec-rails'
+  gem 'fabrication'
+  gem 'simplecov'
+end
+
+gem 'zurb-foundation'
+
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
 
